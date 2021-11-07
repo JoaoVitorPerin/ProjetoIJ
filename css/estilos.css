@@ -144,6 +144,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 
 }
 
@@ -258,4 +259,84 @@
     margin: auto;
 }
 
+/** CSS da página de login **/
 
+.formulario-login{
+    height: 300px;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.formulario-login a{
+    color: #016000;
+    text-decoration: none;
+}
+
+.formulario-login a:hover{
+    color: #08b405;
+}
+
+.conteudo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.inputlogin{
+    border: solid 1px #016000;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15;
+    color: #016000;
+    background-color: #EEE;
+    margin-top: 10px;
+    
+}
+
+.button-login{
+    width: 150px;
+    right: 150px;
+    top: 65px;
+    font-size: 18px;
+    background-color: #016000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.button-sair{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80px;
+    right: 100px;
+    top: 70px;
+    background-color: #016000;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.button-login:hover{
+    background-color: #08b405;
+}
+
+.button-sair:hover{
+    background-color: #08b405;
+}
