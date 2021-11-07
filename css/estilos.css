@@ -1,0 +1,261 @@
+/** CSS do slogan no topo **/
+.slogan{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+/** CSS do menu **/
+.div-menu{
+    height: 120px;
+    width: 100%;
+    background-color: black;
+}
+
+.logo{
+    position: absolute;
+    width: 200px;
+    left: 10%;
+    top: -5px;
+    cursor: pointer;
+}
+
+.menu{
+    margin: auto;
+    width: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.menu ul {
+    position: absolute;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    top: 80px;
+    text-align: center;
+}
+
+.menu ul li { display: inline; }
+
+.menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    color: #016000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu ul li a:hover {
+    color: #08b405;
+}
+
+.tabela-icones{
+    position: absolute;
+    width: 80px;
+    right: 10%;
+    top: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+/** CSS da frase chamativa + botão**/
+
+.div-frase{
+    height: 85%;
+    width: 100%;
+    background-image: url("../img/teste2.png");
+    margin: auto;
+}
+
+.div-frase p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.button-cadastro{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #016000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.button-cadastro:hover{
+    background-color: #08b405;
+}
+
+
+/** CSS dos cards de produtos mais vendidos **/
+
+.div-produtos-vendidos{
+    position: static;
+    height: 60%;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+}
+
+.div-produtos-vendidos h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div-produtos-vendidos table{
+    margin: auto;
+}
+
+.button-ver-mais{
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #016000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-ver-mais:hover{
+    background-color: #08b405;
+}
+
+.div-card{
+    width: 200px;
+    height: 300px;
+    background-color: #CCC;
+    padding: 5px;
+    float: left;
+    margin: 5;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+
+.div-gift{
+    width: 100%;
+    height: 90%;
+}
+
+.div-gift img{
+    width: 100%;
+    height: 100%;
+}
+
+.div-titulo{
+    margin-top: 3px;
+    background-color: #016000;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    color: white;
+}
+
+/** CSS do video**/
+
+.div-video{
+    position: static;
+    height: 85%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.div-video h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/** CSS das avaliações dos clientes **/
+
+.div-avaliacao{
+    height: 60%;
+    width: 100%;
+}
+
+.div-avaliacao table{ 
+    margin: auto;
+}
+
+.div-avaliacao h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-avaliacao{
+    width: 1000px;
+    height: 150px;
+    background-color: #CCC;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.foto-cliente{
+    width: 100%;
+    height: 100%;
+}
+
+.foto-cliente img{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card-avaliacao p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/** CSS do rodapé **/
+
+.div-rodape{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+
+.div-rodape{
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.redes img{
+    height: 30px;
+    display: inline-block;
+}
+
+.redes table{
+    margin: auto;
+}
+
+
