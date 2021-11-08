@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 /** CSS do slogan no topo **/
 .slogan{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -183,6 +187,7 @@
     color: white;
 }
 
+
 /** CSS do video**/
 
 .div-video{
@@ -242,13 +247,11 @@
     height: 150px;
     width: 100%;
     background-color: black;
-}
-
-.div-rodape{
     color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 .redes img{
     height: 30px;
@@ -339,4 +342,76 @@
 
 .button-sair:hover{
     background-color: #08b405;
+}
+
+/** CSS da página de produtos **/
+
+#divProdutos{
+    width: 100%;
+    height: 100%;
+}
+
+.div-card2{
+    width: 250px;
+    height: 400px;
+    background-color: #CCC;
+    padding: 5px;
+    float: left;
+    margin: 5;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+
+.div-gift2{
+    width: 100%;
+    height: 80%;
+}
+
+.div-gift2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.div-titulo2{
+    margin-top: 3px;
+    background-color: #016000;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    color: white;
+}
+
+.div-comprar{
+    width: 100%;
+    height: 10%;
+}
+
+.button-comprar{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    background-color: #016000;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+.button-comprar:hover{
+    background-color: #08b405;
+}
+
+.button-comprado{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    background-color: white;
+    color: #016000;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 8px;
 }
