@@ -10,8 +10,10 @@ window.onload = function(){
 function comprar(id){
     listaProdutos[id][3] = true;
     carrinho.push(listaProdutos[id]);
-    window.localStorage.setItem("carrinho", JSON.stringify(carrinho));
+    storage = window.localStorage;
+    storage.setItem("carrinho", JSON.stringify(carrinho));
     montarCardProdutos();
+    
 }
 
 function montarCardProdutos(){

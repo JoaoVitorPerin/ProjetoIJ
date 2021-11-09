@@ -148,7 +148,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
 
 }
 
@@ -414,4 +413,20 @@ body{
     border-radius: 3px;
     padding: 5px;
     margin-top: 8px;
+}
+
+/** Css da página do carrinho **/
+
+.div-carrinho {
+    height: 100%;
+    width: 100%;
+}
+
+.div-carrinho h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#produtos-carrinho{
+    height: 100%;
+    width: 100%;
 }
