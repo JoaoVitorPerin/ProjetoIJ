@@ -1,5 +1,5 @@
 # ProjetoIJ
-Projeto desenvolvido para a matéria de Desenvolvimento Web.
+Projeto desenvolvido para a matéria de Programação Web.
 
 ALUNOS:
 Igor Rubio Lazaroto
